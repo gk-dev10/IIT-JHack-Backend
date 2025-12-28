@@ -8,7 +8,7 @@ import {admin} from "./firebase.js";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const allowedOrigins = ['http://localhost:3000'];
+const allowedOrigins = ['http://localhost:5173'];
 
 const corsOptions = {
   origin: allowedOrigins,
